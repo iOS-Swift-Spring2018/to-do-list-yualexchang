@@ -12,6 +12,7 @@
 		042CCA842038DECB0061EC96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042CCA822038DECB0061EC96 /* Main.storyboard */; };
 		042CCA862038DECB0061EC96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042CCA852038DECB0061EC96 /* Assets.xcassets */; };
 		042CCA892038DECB0061EC96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042CCA872038DECB0061EC96 /* LaunchScreen.storyboard */; };
+		0445DA6A2038EF860005F216 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445DA692038EF860005F216 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		042CCA852038DECB0061EC96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		042CCA882038DECB0061EC96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		042CCA8A2038DECB0061EC96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0445DA692038EF860005F216 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				042CCA7E2038DECB0061EC96 /* AppDelegate.swift */,
 				042CCA802038DECB0061EC96 /* ViewController.swift */,
+				0445DA692038EF860005F216 /* DetailViewController.swift */,
 				042CCA822038DECB0061EC96 /* Main.storyboard */,
 				042CCA852038DECB0061EC96 /* Assets.xcassets */,
 				042CCA872038DECB0061EC96 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0445DA6A2038EF860005F216 /* DetailViewController.swift in Sources */,
 				042CCA812038DECB0061EC96 /* ViewController.swift in Sources */,
 				042CCA7F2038DECB0061EC96 /* AppDelegate.swift in Sources */,
 			);
@@ -277,6 +281,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TZVRB936X5;
 				INFOPLIST_FILE = "To Do List/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ISclass.To-Do-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TZVRB936X5;
 				INFOPLIST_FILE = "To Do List/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ISclass.To-Do-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
